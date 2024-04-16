@@ -4,12 +4,11 @@ import java.util.Arrays;
 import main.TaskUtil;
 
 /*
-* Comb sort based on bubble sort
-* Best-case performance - O(nlogn)
+* Comb sort based on shuffle and check way
+* Best-case performance - O(n log n)
 * Worst-case performance - O(n^2)
 * Worst-case space complexity -	O(1)
 */
-
 public class Main {
     public static void main(String[] args) {
         int[] arr = TaskUtil.initArray();

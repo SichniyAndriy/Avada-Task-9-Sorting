@@ -6,10 +6,9 @@ import main.TaskUtil;
 /*
 * Odd-even sort based on bubble sort
 * Best-case performance - O(n)
-* Worst-case performance - O(n^2)
+* Worst-case performance - O(n ^ 2)
 * Worst-case space complexity -	O(1)
 */
-
 public class Main {
     public static void main(String[] args) {
         int[] arr = TaskUtil.initArray();
