@@ -12,7 +12,7 @@ import main.TaskUtil;
 public class Main {
     public static void main(String[] args) {
         int[] arr = TaskUtil.initArray();
-        System.out.println("Comb sorting");
+        System.out.println("God sorting");
         System.out.println("Unsorted array: " + Arrays.toString(arr));
         godSort(arr);
         System.out.println("Sorted array: " + Arrays.toString(arr));
