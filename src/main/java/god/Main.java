@@ -4,7 +4,7 @@ import java.util.Arrays;
 import main.TaskUtil;
 
 /*
-* Comb sort based on bubble sort
+* God sort
 * Best-case performance - O(n * n!)
 * Worst-case performance - O(n)
 * Worst-case space complexity - O(1)

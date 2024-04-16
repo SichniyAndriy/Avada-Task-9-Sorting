@@ -4,7 +4,7 @@ import java.util.Arrays;
 import main.TaskUtil;
 
 /*
- * Choice sort
+ * Count sort
  * Best-case performance - O(n + k)
  * Worst-case performance - O(n * k)
  * Worst-case space complexity - O(n + k)
