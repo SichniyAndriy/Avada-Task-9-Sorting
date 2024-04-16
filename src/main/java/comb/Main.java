@@ -4,7 +4,7 @@ import java.util.Arrays;
 import main.TaskUtil;
 
 /*
-* Comb sort based on shuffle and check way
+* Comb sort
 * Best-case performance - O(n log n)
 * Worst-case performance - O(n^2)
 * Worst-case space complexity -	O(1)
