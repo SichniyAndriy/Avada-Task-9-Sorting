@@ -26,7 +26,7 @@ public class Main {
 
     private static void shuffle(int[] arr) {
         for (int i = 0; i < arr.length; ++i) {
-            TaskUtil.swap(arr, i,TaskUtil.faker.random().nextInt(arr.length));
+            TaskUtil.swap(arr, i, TaskUtil.faker.random().nextInt(arr.length));
         }
         System.out.println(Arrays.toString(arr));
     }

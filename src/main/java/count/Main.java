@@ -22,9 +22,9 @@ public class Main {
         int[] indexes = findLenForBuffer(arr);
         int[] buffer = new int[indexes[1] - indexes[0] + 1];
 
-        for (int i = 0; i < arr.length; ++i) {
-            int offset = indexes[0] < 0 ? -indexes[0] : arr[i] - indexes[0];
-            int tmp = arr[i] + offset;
+        for (int k : arr) {
+            int offset = indexes[0] < 0 ? -indexes[0] : k - indexes[0];
+            int tmp = k + offset;
             ++buffer[tmp];
         }
 
