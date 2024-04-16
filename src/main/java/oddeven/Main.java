@@ -5,8 +5,8 @@ import main.TaskUtil;
 
 /*
 * Odd-even sort based on bubble sort
+* Best-case performance - O(n)
 * Worst-case performance - O(n^2)
-* Best-case performance -  O(n)
 * Worst-case space complexity -	O(1)
 */
 

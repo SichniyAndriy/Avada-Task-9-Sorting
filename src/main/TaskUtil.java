@@ -3,8 +3,8 @@ package main;
 import net.datafaker.Faker;
 
 public class TaskUtil {
-    private final static Faker faker = new Faker();
-    private final static int SIZE = 25;
+    public final static Faker faker = new Faker();
+    public final static int SIZE = 10;
 
     public static int[] initArray() {
         int[] arr = new int[SIZE];
