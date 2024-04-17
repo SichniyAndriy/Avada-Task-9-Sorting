@@ -25,9 +25,9 @@ public class Main {
         if (arr[i] > arr[j]) {
             TaskUtil.swap(arr, i, j);
         }
-        int border = j - i + 1;
-        if (border > 2) {
-            int pivot = border / 3;
+        int segment = j - i + 1;
+        if (segment > 2) {
+            int pivot = segment / 3;
             stoogeSort(arr, i, j - pivot);
             stoogeSort(arr, i + pivot, j);
             stoogeSort(arr, i, j - pivot);
