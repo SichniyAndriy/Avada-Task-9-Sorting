@@ -28,13 +28,10 @@ public class Main {
             ++buffer[tmp];
         }
 
-        int j = 0;
-        for (int i = 0; i < buffer.length; ++i) {
-            if (buffer[i] != 0) {
-                while (buffer[i] > 0) {
-                    arr[j++] = i + indexes[0];
-                    --buffer[i];
-                }
+        for (int i = 0, j = 0; i < buffer.length; ++i) {
+            while (buffer[i] > 0) {
+                arr[j++] = i + indexes[0];
+                --buffer[i];
             }
         }
     }
