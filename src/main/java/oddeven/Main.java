@@ -22,7 +22,7 @@ public class Main {
         boolean sorted = false;
         while (!sorted) {
             sorted = true;
-            for (int i = 0; i < arr.length - 1; i += 2) {
+            for (int i = 0; i < arr.length; i += 2) {
                 if (arr[i] > arr[i + 1]) {
                     TaskUtil.swap(arr, i,i + 1);
                     sorted = false;
