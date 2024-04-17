@@ -20,15 +20,11 @@ public class Main {
 
     private static void godSort(int[] arr) {
         while (!isSorted(arr)) {
-            shuffle(arr);
+            for (int i = 0; i < arr.length; ++i) {
+                TaskUtil.swap(arr, i, TaskUtil.faker.random().nextInt(arr.length));
+            }
+            System.out.println(Arrays.toString(arr));
         }
-    }
-
-    private static void shuffle(int[] arr) {
-        for (int i = 0; i < arr.length; ++i) {
-            TaskUtil.swap(arr, i, TaskUtil.faker.random().nextInt(arr.length));
-        }
-        System.out.println(Arrays.toString(arr));
     }
 
     private static boolean isSorted(int[] arr) {
